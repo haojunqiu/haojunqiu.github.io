@@ -1,12 +1,11 @@
 {
   "basics": {
-    "name": "Albert Einstein",
-    "label": "Scientist",
+    "name": "Haojun Qiu",
     "image": "",
-    "email": "albert@einstein.de",
-    "phone": "(912) 123-4567",
-    "url": "https://alshedivat.github.io/al-folio/",
-    "summary": "A German-born theoretical physicist, widely ranked among the greatest and most influential scientists of all time",
+    "email": "harry.qiu@mail.toronto.ca",
+    "phone": "(778) 522-8798",
+    "url": "https://haojunqiu.github.io",
+    "summary": "",
     "location": {
       "address": "2712 Broadway St",
       "postalCode": "CA 94115",
@@ -24,38 +23,53 @@
   },
   "work": [
     {
-      "name": "Institute for Advanced Study, Princeton University",
-      "position": "Professor of Theoretical Physics",
+      "name": "Dynamic Graphics Project Lab",
+      "position": "Research Assistant",
       "url": "https://example.com",
-      "startDate": "1933-01-01",
-      "endDate": "1955-01-01",
-      "summary": "Teaching at Palmer Physical Laboratory (now 302 Frist Campus Center). While not a professor at Princeton, I associated with the physics professors and continued to give lectures on campus.",
+      "startDate": "2022-05-01",
+      "endDate": "Present",
+      "summary": "Machine Learning, Generative Modeling, Computer vision, Pytorch",
       "highlights": [
-        "Relativity"
+        "Working with Prof. Kyros Kutulakos and Prof. David Lindell on a computer vision project, regarding a new patch-based image representation via generative modeling.",
+        "Implemented some image to image translation applications based on our newly developed image representation scheme, such as single image super-resolution, image denoising, etc.",
+        "Familiarized modern deep learning frameworks such as PyTorch, developed the writing, presentation, and communication skills along the way."
       ]
     }
   ],
   "volunteer": [],
   "education": [
     {
-      "institution": "University of Zurich, Zurich, Switzerland",
+      "institution": "University of Toronto",
       "url": "https://www.uzh.ch/",
-      "area": "Software Development",
-      "studyType": "PhD",
-      "startDate": "1905-01-01",
-      "endDate": "1905-01-01",
+      "area": "Computer Science, Data Science, Mathematics",
+      "studyType": "Undergraduate",
+      "startDate": "2020-09-01",
+      "endDate": "2025-05-01",
       "score": "",
       "courses": [
-        "Theory of Relativity"
+        "CGPA: 4.0/4.0 (94.1/100)",
+        "Courses: Deep Learning and Neural Network (CSC413), Probabilistic Machine Learning (CSC412), Intro to Machine Learning (CSC311), Visual Computing (CSC320), Computer Graphics (CSC317), Advanced Probability (STA347), Statistics (STA261), Multivariable Calc (MAT237), Linear Algebra (MAT224)"
       ]
     }
   ],
   "awards": [
     {
-      "title": "Nobel Prize in Physics",
-      "date": "1921-11-01",
-      "awarder": "Royal Swedish Academy of Sciences",
-      "summary": "The Nobel Prizes are five separate prizes that, according to Alfred Nobel's will of 1895, are awarded to 'those who, during the preceding year, have conferred the greatest benefit to humankind.'"
+      "title": "Nora Kathleen Gillies Scholarship Fund",
+      "date": "2023",
+      "awarder": "University of Toronto",
+      "summary": "Scholarship amounts to $300, awarded by Woodworth College, University of Toronto, to whom has achieved acdemic excellence"
+    },
+    {
+      "title": "Alexander T. Fulton: Computer Science",
+      "date": "2022",
+      "awarder": "University of Toronto",
+      "summary": "Scholarship amounts to $400, awarded to an outstanding student who has completed the first year in the Faculty of Arts and Science and who is enrolled in a Computer Science program."
+    },
+    {
+      "title": "Dean's List Scholar",
+      "date": "2020 to 2023",
+      "awarder": "University of Toronto",
+      "summary": ""
     }
   ],
   "certificates": [],
@@ -63,12 +77,12 @@
   "skills": [],
   "languages": [
     {
-      "language": "German",
-      "fluency": "Native speaker"
-    },
-    {
       "language": "English",
       "fluency": "Fluent"
+    },
+    {
+      "language": "Madanrian",
+      "fluency": "Native Speaker"
     }
   ],
   "interests": [],

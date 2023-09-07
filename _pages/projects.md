@@ -1,11 +1,11 @@
-<!-- ---
+---
 layout: page
 title: projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: A growing collection of projects that I want them to be exhibited.
 nav: true
 nav_order: 2
-display_categories: [work, fun]
+display_categories: [generative modeling]
 horizontal: false
 ---
 
@@ -55,4 +55,4 @@ horizontal: false
   </div>
   {%- endif -%}
 {%- endif -%}
-</div> -->
+</div>

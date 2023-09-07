@@ -19,7 +19,7 @@ related_publications:
 </div>
 
 # [Important!!!] Paper Writing
-**For a more comprehensive treatment, I recommand the paper/report we've written [here](../../assets/pdf/an_image_is_worth_one_sentence.pdf), where we provide more backgrounds, intutions, and analysis.**
+**For a more comprehensive treatment, I recommand the paper/report we've written [here](../../assets/textual_inversion_plus/an_image_is_worth_one_sentence.pdf), where we provide more backgrounds, intutions, and analysis.**
 
 Nevertheless, I provide an overview below, assuming the knowledge of [vanila textual inversion](https://textual-inversion.github.io).
 

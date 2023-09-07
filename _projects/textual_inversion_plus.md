@@ -15,11 +15,11 @@ related_publications:
     </div>
 </div>
 <div class="caption">
-    <strong>Teaser.</strong> Inverting the input image(s) (left) to generate personalized outputs (right). We learned that text embeddings from single image can do plausible personalization, converging much faster than TI..
+    <strong>Teaser.</strong> Inverting the input image(s) (left) to generate personalized outputs (right). With our method, the learned text embeddings from single image can do plausible personalization/re-contextualization, converging much faster than vanila TI.
 </div>
 
 # [Important!!!] Paper Writing
-**For a more comprehensive treatment, I recommand the paper/report we've written [here](../../assets/textual_inversion_plus/an_image_is_worth_one_sentence.pdf), where we provide more backgrounds, intutions, and analysis.**
+**For a more comprehensive treatment, I recommand the [paper/report](../../assets/textual_inversion_plus/an_image_is_worth_one_sentence.pdf) we've written, where we provide more backgrounds, intutions, and analysis.**
 
 Nevertheless, I provide an overview below, assuming the knowledge of [vanila textual inversion](https://textual-inversion.github.io).
 

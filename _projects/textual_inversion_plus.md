@@ -35,7 +35,7 @@ convergence speed compared to vanilla TI.
 
 # Method
 
-Overall, we modify the original textual inversion by replacing the idea of 'capturing a concept with a word' to 'capturing a concept with a sentence', and proposed to initialize the inverted 'sentence' by off-the-shelf captioning model (classification model can also be used, and we have results related to it in the [report](../../assets/pdf/an_image_is_worth_one_sentence.pdf)). In the following, we focus on the captioning initialization.
+Overall, we modify the original textual inversion by replacing the idea of 'capturing a concept with a word' to 'capturing a concept with a sentence', and proposed to initialize the inverted 'sentence' by off-the-shelf captioning model (classification model can also be used, and we have results related to it in the [report](../../assets/textual_inversion_plus/an_image_is_worth_one_sentence.pdf). In the following, we focus on the captioning initialization.
 
 <div class="row">
     <div class="col-sm mt-3 mt-md-0">
@@ -47,14 +47,14 @@ Overall, we modify the original textual inversion by replacing the idea of 'capt
 </div>
  
 ### Single Image Setting 
-Instead of using multiple captures of a concept (typically 3-5 images in original TI), we use the setting of single image/capture alone, as this is a more realistic setting for real-life use cases. We demonstrate that a single image suffices via some recontextualization examples in the [report](../../assets/pdf/an_image_is_worth_one_sentence.pdf). However, our main contribution is in the captioning initialization (w/ multi-token inversion).
+Instead of using multiple captures of a concept (typically 3-5 images in original TI), we use the setting of single image/capture alone, as this is a more realistic setting for real-life use cases. We demonstrate that a single image suffices via some recontextualization examples in the [report](../../assets/textual_inversion_plus/an_image_is_worth_one_sentence.pdf). However, our main contribution is in the captioning initialization (w/ multi-token inversion).
 
 ### Captioning Initialization, and Mutli-token Inversion
  Instead of representing a concept using only one *single* "new word", i.e., a placeholder token `<s>` as in the vanilla TI, we allow constructing *multiple* placeholder tokens `<0>, <1>, ..., <n>`, and denote their corresponding optimizing embeddings as $$ \mathbf{v}^{(0)}, \mathbf{v}^{(1)}, \dots, \mathbf{v}^{(n)} $$. The specific number of tokens depends on the results of a captioning model as the initialization of word embeddings -- we will first fed the image into a captioning model to get a sequence of words.
 
 # Results
 
-For more comprehensive analysis like ablation study please refer to the [report](../../assets/pdf/an_image_is_worth_one_sentence.pdf). Below, we give the training loss convergence, in which we see that captioning converges the fastest out off three cases -- initialization by classification, captioning, or a single token `'*'`.
+For more comprehensive analysis like ablation study please refer to the [report](../../assets/textual_inversion_plus/an_image_is_worth_one_sentence.pdf). Below, we give the training loss convergence, in which we see that captioning converges the fastest out off three cases -- initialization by classification, captioning, or a single token `'*'`. We can observe that our captioning method converges the fastest out of the three. And note that there are many more metrics can be evaluated on generated recontextualized/reconstructed images, such as LPIPS -- please refer to the [report](../../assets/textual_inversion_plus/an_image_is_worth_one_sentence.pdf). 
 
 
 <div class="row">
@@ -63,11 +63,21 @@ For more comprehensive analysis like ablation study please refer to the [report]
     </div>
 </div>
 <div class="caption">
-    The plot illustrates the training average mean squared error, i.e., the LDM loss over 12 chosen images. The red curve shows using caption as initialization, the green curve shows using object class as initialization, and blue curve shows `'*'` as initialization.
+    <strong>Training Loss Convergence.</strong> The plot illustrates the training average mean squared error, i.e., the LDM loss over 12 chosen images. The red curve shows using caption as initialization, the green curve shows using object class as initialization, and blue curve shows `'*'` as initialization.
+</div>
+
+Below, we include some qualitive results of our method. These are generated images from prompts with learned embeddings. We use only *100 optimization steps on a single image* (v.s. vanilla textual inversion uses around 5000 steps on multiple iamges) and the results show promising personalization capabilities of our proposed method.
+<div class="row">
+    <div class="col-sm mt-3 mt-md-0">
+        {% include figure.html path="assets/textual_inversion_plus/personalization.png" title="example image" class="img-fluid rounded z-depth-1" %}
+    </div>
+</div>
+<div class="caption">
+    <strong>Some personalization results w/ our method.</strong> These are generated images from prompts with learned embeddings. We use only *100 optimization steps on a single image*
 </div>
 
 
 # Code
 
-The implementation is simple. We just modify the part of TI's single word embedding inversion to mutliple word embeddings inversion in the official Textual Inversion github repo. If you would like to know more details about how this is done feel free to [contact me](mailto:harry.qiu@mail.utoronto.ca) and I can send to the specific functions/parts to be replaced from the official repo -- we are maintaining the code for other extensions so would not release it yet.
+The implementation is simple. We just modify the part of TI's restricted single word embedding inversion to allowing mutliple word embeddings inversion in the [official Textual Inversion github repo](https://github.com/rinongal/textual_inversion). If you would like to know more details about how this is done feel free to [contact me](mailto:harry.qiu@mail.utoronto.ca) and I can send to the specific functions/parts to be replaced from the official repo -- we are maintaining the code for other extensions so would not release it yet.
 

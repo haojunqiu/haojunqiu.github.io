@@ -21,7 +21,7 @@ Hi! I am an undergraduate student in the University of Toronto, specializing com
 
 I am advised by [Prof. David B. Lindell](https://davidlindell.com) and [Prof. Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/), working on the topic of score-based generative modeling and internal learning (modeling the patch distribution of a single image instance).
 
-I spent a wonderful summer at Stanford, working with [Prof. Jiajun Wu](https://jiajunwu.com), [Dr. Shangzhe Wu](https://elliottwu.com), [Chen Geng](https://chen-geng.com), and [Yunzhi Zhang](https://cs.stanford.edu/~yzzhang/)
+I spent a wonderful summer at Stanford, working with [Prof. Jiajun Wu](https://jiajunwu.com), [Dr. Shangzhe Wu](https://elliottwu.com), [Chen Geng](https://chen-geng.com), and [Yunzhi Zhang](https://cs.stanford.edu/~yzzhang/).
 
 I would be excited to chat anything: [harry.qiu@mail.utoronto.ca](mailto:harry.qiu@mail.utoronto.ca)
 

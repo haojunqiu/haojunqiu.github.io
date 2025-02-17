@@ -17,11 +17,11 @@ selected_papers: false # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am an undergraduate student in the University of Toronto, specializing computer science. My research interest broadly span computer vision, computer graphics, and machine learning. 
+Hi! I am an undergraduate student in the University of Toronto, specializing computer science. My research interest broadly span computer vision, computational imaging, computer graphics, and machine learning. 
 
-I am currently working on a research project on generative modeling and internal learning, advised by Prof. [David B. Lindell](https://davidlindell.com) and Prof. [Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/).
+I am advised by [Prof. David B. Lindell](https://davidlindell.com) and [Prof. Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/), working on the topic of score-based generative modeling and internal learning (modeling the patch distribution of a single image instance).
 
-I love sports, foods, and singing!
+I spent a wonderful summer at Stanford, working with [Prof. Jiajun Wu](https://jiajunwu.com), [Dr. Shangzhe Wu](https://elliottwu.com), [Chen Geng](https://chen-geng.com), and [Yunzhi Zhang](https://cs.stanford.edu/~yzzhang/)
 
 I would be excited to chat anything: [harry.qiu@mail.utoronto.ca](mailto:harry.qiu@mail.utoronto.ca)
 

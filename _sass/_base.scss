@@ -548,6 +548,16 @@ footer.sticky-bottom {
 
 // Publications
 
+.publication-img {
+    width: 15.0rem;
+}
+
+ul.list-inline {
+    margin-top: 0;
+    margin-bottom: 30px;
+}
+
+
 .publications {
   margin-top: 2rem;
 
@@ -569,11 +579,12 @@ footer.sticky-bottom {
 
   h2.bibliography {
     color: var(--global-divider-color);
-    border-top: 1px solid var(--global-divider-color);
-    padding-top: 1rem;
+    // border-top: 1px solid var(--global-divider-color);
+    border-top: none;
+    padding-top: 0rem;
     margin-top: 2rem;
-    margin-bottom: -2rem;
-    text-align: right;
+    margin-bottom: -3rem;
+    text-align: left;
   }
 
   ol.bibliography {

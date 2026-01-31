@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I am a researcher on the Sensor Simulation team at [Waabi](https://www.waabi.ai), working on world modeling and simulation for autonomous driving. I received my B.Sc. in Computer Science from the University of Toronto, where I worked with [Prof. David B. Lindell](https://davidlindell.com) and [Prof. Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/) on score-based generative modeling and patch-based methods, focusing on training-free and efficient single-image generative modeling via closed-form diffusion models.
 
-In Summer 2024, I conducted research at Stanford University with [Prof. Jiajun Wu](https://jiajunwu.com), [Prof. Shangzhe Wu](https://elliottwu.com), 
+In Summer 2024, I conducted research at Stanford University with [Prof. Jiajun Wu](https://jiajunwu.com), [Prof. Elliott Wu](https://elliottwu.com), 
 focusing on video score distillation and motion modeling. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)]((https://sgi.mit.edu)) at MIT, where I explored some topics in geometry processing (Monte Carlo geometry processing, logarithmic heat diffusion, and fluid simulation with gaussian velocity field).
 
 My current research interests broadly span generative models (diffusion/flow models), and 3D/4D scene representations, especially when it comes to connecting theory and efficient algorithms.

@@ -17,11 +17,11 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am a researcher on the Sensor Simulation team at [Waabi](https://www.waabi.ai), working on world modeling and simulation for autonomous driving. I received my B.Sc. in Computer Science from the University of Toronto, where I worked with [Prof. David B. Lindell](https://davidlindell.com) and [Prof. Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/) on score-based generative modeling and patch-based methods, focusing on efficient and training-free single-image generative modeling via closed-form diffusion models.
+Hi! I am a researcher on the Sensor Simulation team at [Waabi](https://www.waabi.ai), working on world modeling and simulation for autonomous driving. I received my B.Sc. in Computer Science from the University of Toronto, advised by [Prof. David B. Lindell](https://davidlindell.com) and [Prof. Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/), and worked on score-based generative modeling and patch-based methods, focusing on efficient and training-free single-image generative modeling via closed-form diffusion models.
 
-In Summer 2024, I worked with [Prof. Jiajun Wu](https://jiajunwu.com) and [Dr. Elliott Wu](https://elliottwu.com) on video score distillation and motion modeling. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)]((https://sgi.mit.edu)), where I explored some topics in geometry processing (Monte Carlo geometry processing, logarithmic heat diffusion, and fluid simulation with gaussian velocity field).
+In Summer 2024, I worked with [Prof. Jiajun Wu](https://jiajunwu.com) and [Dr. Elliott Wu](https://elliottwu.com) at Stanford University on video score distillation and motion modeling. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)]((https://sgi.mit.edu)) at MIT, where I explored some topics in geometry processing (Monte Carlo geometry processing, logarithmic heat diffusion, and fluid simulation with Gaussian velocity fields).
 
-My current research interests broadly span generative models (diffusion/flow models), and 3D/4D scene representations.
+My current research interests broadly span generative models (diffusion/flow models) and 3D/4D scene representations.
 <!-- I would be excited to chat anything: [harry.qiu@mail.utoronto.ca](mailto:harry.qiu@mail.utoronto.ca) -->
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

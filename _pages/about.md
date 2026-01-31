@@ -17,13 +17,13 @@ selected_papers: true # includes a list of papers marked as "selected={true}"
 social: true  # includes social icons at the bottom of the page
 ---
 
-Hi! I am a researcher on the Sensor Simulation team at [Waabi](https://www.waabi.ai), working on world modeling and simulation for autonomous driving. I received my B.Sc. in Computer Science from the University of Toronto, where I conducted research in computer vision, machine learning, and computer graphics.
+Hi! I am a researcher on the Sensor Simulation team at [Waabi](https://www.waabi.ai), working on world modeling and simulation for autonomous driving. I received my B.Sc. in Computer Science from the University of Toronto, where I worked with [Prof. David B. Lindell](https://davidlindell.com) and [Prof. Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/) on score-based generative modeling and patch-based methods, focusing on training-free and efficient single-image generative modeling via closed-form diffusion models.
 
-During my undergraduate studies, I was advised by [Prof. David B. Lindell](https://davidlindell.com) and [Prof. Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/), and worked on score-based generative modeling and internal learning—particularly on modeling the patch distribution of a single image instance for training-free and efficient generation.
+In Summer 2024, I conducted research at Stanford University with [Prof. Jiajun Wu](https://jiajunwu.com), [Dr. Shangzhe Wu](https://elliottwu.com), 
+<!-- [Chen Geng](https://chen-geng.com), and [Yunzhi Zhang](https://cs.stanford.edu/~yzzhang/),  -->
+focusing on video score distillation and motion modeling. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)]((https://sgi.mit.edu)) at MIT, where I explored some topics in geometry processing (Monte Carlo geometry processing, logarithmic heat diffusion, and fluid simulation with gaussian velocity field).
 
-In Summer 2024, I conducted research at Stanford University with [Prof. Jiajun Wu](https://jiajunwu.com), [Dr. Shangzhe Wu](https://elliottwu.com), [Chen Geng](https://chen-geng.com), and [Yunzhi Zhang](https://cs.stanford.edu/~yzzhang/), focusing on video score distillation and motion modeling. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)]((https://sgi.mit.edu)) at MIT, where I explored some topics in geometry processing (Monte Carlo geometry processing, logarithmic heat diffusion, and fluid simulation with gaussian velocity field).
-
-My current research interests broadly span generative models (especially diffusion/flow methods), and 3D/4D scene representations, with an emphasis on connecting theory and efficient algorithms.
+My current research interests broadly span generative models (diffusion/flow models), and 3D/4D scene representations, especially when it comes to connecting theory and efficient algorithms.
 <!-- I would be excited to chat anything: [harry.qiu@mail.utoronto.ca](mailto:harry.qiu@mail.utoronto.ca) -->
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

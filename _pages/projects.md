@@ -3,7 +3,7 @@ layout: page
 title: projects
 permalink: /projects/
 description: A growing collection of projects that I want them to be exhibited.
-nav: true
+nav: false
 nav_order: 2
 display_categories: [generative modeling]
 horizontal: false

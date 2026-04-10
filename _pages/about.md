@@ -21,7 +21,7 @@ Hi! I am a researcher on the World Models team at [Waabi](https://www.waabi.ai),
 
 In Summer 2024, I worked with [Prof. Jiajun Wu](https://jiajunwu.com) and [Dr. Elliott Wu](https://elliottwu.com) at Stanford University on video score distillation and motion modeling. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)](https://sgi.mit.edu) at MIT, where I explored some topics in geometry processing (Monte Carlo geometry processing, logarithmic heat diffusion, and fluid simulation with Gaussian velocity fields).
 
-My current research interests broadly span generative models (diffusion/flow models) and 3D/4D scene representations.
+My current research interests broadly span generative models (diffusion/flow models), video world models, and 3D/4D scene representations.
 <!-- I would be excited to chat anything: [harry.qiu@mail.utoronto.ca](mailto:harry.qiu@mail.utoronto.ca) -->
 
 <!-- Tell the world about yourself. Link to your favorite [subreddit](http://reddit.com). You can put a picture in, too. The code is already in, just name your picture `prof_pic.jpg` and put it in the `img/` folder.

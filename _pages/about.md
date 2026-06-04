@@ -19,7 +19,7 @@ social: true  # includes social icons at the bottom of the page
 
 Hi! I am a researcher on the World Models team at [Waabi](https://www.waabi.ai). I received my B.Sc. in Computer Science from the University of Toronto, advised by [David B. Lindell](https://davidlindell.com) and [Kyros Kutulakos](https://www.cs.toronto.edu/~kyros/), where I connected score-based generative modeling with patch-based methods via closed-form denoising, enabling efficient and training-free single-image generative modeling.
 
-In Summer 2024, I worked with [Jiajun Wu](https://jiajunwu.com) and [Elliott Wu](https://elliottwu.com) at Stanford University on video score distillation for motion. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)](https://sgi.mit.edu) at MIT, where I explored some very interesting topics including Monte Carlo geometry processing, log heat diffusion, and fluid simulation.
+In Summer 2024, I worked with [Jiajun Wu](https://jiajunwu.com) and [Elliott Wu](https://elliottwu.com) at Stanford University on video score distillation for motion. In Summer 2025, I participated in the [Summer Geometry Initiative (SGI)](https://sgi.mit.edu) at MIT, where I explored some interesting topics including Monte Carlo geometry processing, log heat diffusion, and fluid simulation.
 
 My current research interests broadly span generative models (diffusion/flow models), video world models, and 3D/4D scene representations.
 <!-- I would be excited to chat anything: [harry.qiu@mail.utoronto.ca](mailto:harry.qiu@mail.utoronto.ca) -->

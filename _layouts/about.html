@@ -8,7 +8,18 @@ layout: default
     <h1 class="post-title">
      {% if site.title == blank %}{{ site.title }}{% else %}<span class="font-weight-bold">{{ site.first_name }} {{ site.middle_name }}  {{ site.last_name }}</span> {% endif %}
     </h1>
-     <p class="desc">{{ page.description }}</p>
+    {% if page.subtitle %}
+      <p class="desc">{{ page.subtitle }}</p>
+    {% elsif page.description %}
+      <p class="desc">{{ page.description }}</p>
+    {% endif %}
+    {% if page.social %}
+      <div class="social social-header">
+        <div class="contact-icons">
+          {% include social.html %}
+        </div>
+      </div>
+    {% endif %}
   </header>
 
   <article>
